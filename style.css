@@ -1,0 +1,152 @@
+/* part */
+#part{
+    background: #a19f9f;
+    position: relative;
+}
+#part .part1 .content-block{
+    float: right;
+    display: inline-block;
+}
+#part .part1 .content-block p{
+    font-size: 16px;
+    margin: 10px;
+    display: inline-block;
+    font-family: 'lato', Helvetica, sans-serif;
+    line-height: 28px;
+    letter-spacing: 0.175px;
+}
+#part .part1 .content-block a{
+    list-style: none;
+    text-decoration: none;
+    color: #242323;
+    
+}
+#part .part1 .content-block a:hover{
+    color: white;
+    font-size: 17px;
+}
+
+/* menu */
+#header{
+    background: white;
+    width: 100%;
+}
+#header a{
+    margin: 20px 50px 0;
+}
+#form{
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+#form .btn:hover{
+    background: #a6ad3f;
+    color: white;
+}
+
+/* barre de menu */
+#navbar{
+    background: #a6ad3f;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    bottom: -20px;
+}
+#navbar .navbar-nav{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+#navbar li a{
+    color:white;
+}
+#navbar li a:hover, .navbar-nav li.active a{
+    color: #a6ad3f;
+    background: white;
+}
+.img-responsive{
+    min-height: 50%;
+}
+    
+
+/* images */
+.carousel-control.left, .carousel-control.right{
+    background: none;
+    color: white;
+}
+.carousel-indicators{
+    bottom: 0px;
+}
+.carousel-inner img{
+    min-width: 100%;
+    min-height: 10% ;
+    display: block;
+}
+
+/* corps */
+.container #heading h1{
+    text-align: center;
+    margin-top: 60px;
+    color: #a6ad3f;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.black-divider{
+    padding-top: 10px;
+   
+}
+.row .black-heading{
+    text-align: center;
+}
+.a img{
+    padding-top: 80px;
+}
+#zoo{
+  margin-bottom: 100px;     
+}
+.marquee{
+    border-left: 8px solid #a6ad3f;
+   
+}
+
+
+
+
+/* formuliare */
+#form1{
+    background: #a19f9f;
+
+}
+.formulaire{
+    text-align: center;
+}
+.centrer{
+    width:30%;
+    margin: 10px 6%;
+}
+.heading11{
+    margin: 20px 6%;
+    font-size: 25px;
+}
+.carte{
+    float: right;
+    padding-top: 50px;
+    margin-right: 80px;
+}
+
+
+/* footer */
+#footer{
+    background: #a6ad3f;
+}
+.heading-footer1{
+    text-align: center;
+   
+}
+.heading-footer1 h6{
+    font-size: 18px;
+    color: white;
+    opacity: 0.5;
+
+}
